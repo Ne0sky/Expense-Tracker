@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+html{
+     font-family: 'Montserrat', sans-serif;
+     overflow-x: hidden;
+}
+
+.gradient-01 {
+    background-image: linear-gradient(
+      270deg,
+      hsl(295deg 76% 51%) 0%,
+      hsl(284deg 70% 73%) 26%,
+      hsl(257deg 70% 86%) 39%,
+      hsl(202deg 92% 90%) 50%,
+      hsl(215deg 77% 81%) 61%,
+      hsl(221deg 73% 70%) 74%,
+      hsl(220deg 76% 51%) 100%
+    );
+    filter: blur(125px);
+  }
+
+  .hero-gradient {
+    background: linear-gradient(
+      97.86deg,
+      #a509ff 0%,
+      #34acc7 53.65%,
+      #a134c7 100%
+    );
+  }
+
+  .gradient-02 {
+    position: absolute;
+    width: 200px;
+    height: 438px;
+    top: 0px;
+    left: 0px;
+  
+    background: #7aecfb7a;
+    filter: blur(190px);
+  }
+
+  .gradient-03 {
+    position: absolute;
+    width: 200px;
+    height: 438px;
+    bottom: 0px;
+    right: 0px;
+  
+    background: #fb7aab45;
+    filter: blur(190px);
+  }
+
+  .glassmorphism-green {
+    background: rgba(162, 251, 189, 0.375);
+    box-shadow: 0 8px 32px 0 rgba(41, 135, 31, 0.258);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  .glassmorphism-red {
+    background: rgba(246, 110, 110, 0.41);
+    box-shadow: 0 8px 32px 0 rgba(135, 31, 40, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+
+  .glassmorphism {
+    background: rgba(147, 179, 250, 0.267);
+    box-shadow: 0 8px 32px 0 rgba(31, 40, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+
+  ::-webkit-scrollbar{
+    width: 15px;
+  }
+
+  ::-webkit-scrollbar-track{
+    background: #ffffff28;
+    border-radius: 0px 8px 8px 0px;
+    width: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb{
+    background: linear-gradient(#00000000,#fdfdfd);
+    border-radius: 20rem;
+  }
