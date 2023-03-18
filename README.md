@@ -8,7 +8,8 @@ This is an expense tracker app that will help you to keep maintain your budget a
 - [x] HTML
 - [x] CSS
 
-## Take aways -
+## Takeaways -
+
 - [x] UseContext Hook
 - [x] UseReducer Hook
 - [x] UseState Hook
